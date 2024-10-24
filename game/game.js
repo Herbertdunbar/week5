@@ -1,9 +1,3 @@
-
-// const things = []
-// const entities = []
-
-const spriteList = []; // array of things that can move on screen
-
 function Position(px, py) {
     return { x: px, y: py };
 }
@@ -16,6 +10,11 @@ function Sprite(nameParameter, kindParameter, posParameter) {
         postion: posParameter,
     };
 }
+
+// const things = []
+// const entities = []
+
+const spriteList = []; // array of things that can move on screen
 
 spriteList.push(Sprite("Capt. Lee", "wizard", Position(10, 5)));
 spriteList.push(Sprite("Capt. Jenny", "wizard", Position(10, 5)));
